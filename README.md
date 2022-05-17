@@ -1,2 +1,2 @@
 # TravelJournalWithReact
-Created with CodeSandbox
+First React project using Data array, .map() and props
