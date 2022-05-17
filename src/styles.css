@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color:#F55A5A;
+  margin: 0;
+  color: white;
+  width: 100%;
+}
+.nav-image{
+  height: 20px;
+  padding-right: 7px;
+}
+
+nav > h3{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+main {
+  margin: 30px 25px 15px;
+  display: flex;
+}
+
+.country-img{
+  height: 168px;
+  width: 125px;
+  border-radius: 7px;
+}
+
+.info-right-section{
+  margin-left: 20px;
+  padding-top: 19px;
+ 
+}
+
+.country-info-line {
+  display: flex;
+  height: 10px;
+  align-items: center;
+  font-size: 10.24px;
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+   margin-bottom: 10px;
+}
+
+.country-info-line > p {
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  padding-right: 5px
+}
+
+.country-info-line > a{
+color: #918E9B;
+} 
+
+.location-name{
+  font-weight: 700;
+font-size: 25px;
+margin: 0;
+
+}
+
+.date{
+  font-weight: 700;
+font-size: 10.24px;
+}
+
+.description{
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+width: 326px;
+height: 45px;
+}
+
+hr{
+  width:80%;
+background-color:#F5F5F5;
+border: 1px solid #F5F5F5;
+  }
